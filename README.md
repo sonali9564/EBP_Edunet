@@ -5,7 +5,7 @@ This project aims to predict employee burnout using a **Linear Regression** mode
 
 Burnout is a state of emotional, physical, and mental exhaustion caused by excessive and prolonged stress. It can lead to decreased productivity, absenteeism, and other negative outcomes for employees. By using machine learning models, organizations can predict burnout risk and implement preventive measures.
 
-In this project, we used the **Linear Regression** model to predict burnout scores based on several employee-related features.
+In this project, I used the **Linear Regression** model to predict burnout scores based on several employee-related features.
 
 ## Tech Stack
 
