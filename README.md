@@ -20,14 +20,7 @@ In this project, we used the **Linear Regression** model to predict burnout scor
 
 ## Dataset
 
-The dataset contains employee features such as:
-
-- `Workload`: The amount of work assigned to employees
-- `Mental Fatigue Score`: A subjective score indicating mental exhaustion
-- `Resource Allocation`: The resources available to the employee to complete their work
-- `Company Type`: Type of company the employee works in (categorical feature)
-- `Designation`: Job title (categorical feature)
-- `Gender`: Gender of the employee (categorical feature)
+The dataset used in this project contains information about employees and various factors related to their work environment to predict burnout levels. It includes both numerical and categorical features, such as **Company Type**, **Designation**, **Gender**, **Mental Fatigue Score**, and **Resource Allocation**. The target variable is the **Burnout Score**, a continuous numerical value representing the level of burnout. The dataset is preprocessed by encoding categorical features (such as `Company Type`, `Designation`, and `Gender`) using one-hot encoding, and scaling the numerical features using **StandardScaler** to ensure consistency in their range. The data is then split into training and testing sets for model training and evaluation. The goal is to build a regression model that predicts the burnout score based on these features.
 
 The target variable is the `Burnout Score`, which is the score predicting the level of burnout.
 
